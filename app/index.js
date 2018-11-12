@@ -3,9 +3,9 @@
 var app = angular.module('mnrhweb', ['ngRoute'])
 	/** Set constant CONFIG for app configuration */
 	.constant('CONFIG', {
-	    'APP_NAME' : 'Time Checkin Service',
+	    'APP_NAME' : 'MNRH Web site',
 	    'APP_VERSION' : '1.0.0',
-	    'BASE_URL' : window.location.protocol+ '//' +window.location.host+ '/checkin',
+	    'BASE_URL' : window.location.protocol+ '//' +window.location.host+ '/',
 	    'SYSTEM_LANGUAGE' : 'TH',
 	    'GOOGLE_ANALYTICS_ID' : ''
 	})
