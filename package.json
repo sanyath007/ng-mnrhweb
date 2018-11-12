@@ -4,10 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "ng": "ng",
-        "start": "node server.js",
-        "build": "ng build --prod",
-        "test": "ng test",
+        
     },
     "author": "",
     "license": "ISC",
@@ -16,7 +13,9 @@
         "angular-animate": "^1.7.5",
         "angular-route": "^1.7.5",
         "angular-sanitize": "^1.7.5",
+        "express": "^4.16.4",
         "moment": "^2.22.2",
+        "morgan": "^1.9.1",
         "toastr": "^2.1.4",
         "underscore": "^1.9.1"
     },
