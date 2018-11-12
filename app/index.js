@@ -10,7 +10,9 @@ var app = angular.module('mnrhweb', ['ngRoute'])
 	    'GOOGLE_ANALYTICS_ID' : ''
 	})
 	/** Route for app */ 
-	.config(['$routeProvider', function ($routeProvider) { //config route for app
+	.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) { //config route for app
+		// $locationProvider.html5Mode(true);
+		
 		$routeProvider.when('/', {
 			templateUrl: 'pages/home.html',
 			controller: 'HomeController'

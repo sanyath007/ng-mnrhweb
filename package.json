@@ -1,20 +1,27 @@
 {
-  "name": "web",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "\u001b[A\u001b[B"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "angular": "^1.7.5",
-    "angular-animate": "^1.7.5",
-    "angular-route": "^1.7.5",
-    "angular-sanitize": "^1.7.5",
-    "moment": "^2.22.2",
-    "toastr": "^2.1.4",
-    "underscore": "^1.9.1"
-  }
+    "name": "web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "ng": "ng",
+        "start": "node server.js",
+        "build": "ng build --prod",
+        "test": "ng test",
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "angular": "^1.7.5",
+        "angular-animate": "^1.7.5",
+        "angular-route": "^1.7.5",
+        "angular-sanitize": "^1.7.5",
+        "moment": "^2.22.2",
+        "toastr": "^2.1.4",
+        "underscore": "^1.9.1"
+    },
+    "engines": {
+        "node": "10.12.0",
+        "npm": "6.4.1"
+    }
 }
